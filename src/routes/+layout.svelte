@@ -1,7 +1,7 @@
 <script>
 	import { onMount } from 'svelte';
 	import { goto } from '$app/navigation';
-	import App from '$lib/fb';
+	import app from '$lib/fb';
 	import { getAuth, onAuthStateChanged } from 'firebase/auth';
 
 	// onMount Lifecycle
