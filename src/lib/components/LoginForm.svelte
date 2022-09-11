@@ -13,7 +13,7 @@
 
 	const auth = getAuth();
 
-	function login(params) {
+	function login() {
 		if (title == 'Login') {
 			signInWithEmailAndPassword(auth, email, password)
 				.then((userCredential) => {
@@ -45,3 +45,5 @@
 </script>
 
 <h1>Login Form Component</h1>
+
+<input
